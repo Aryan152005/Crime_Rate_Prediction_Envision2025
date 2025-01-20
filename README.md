@@ -499,17 +499,17 @@ This detailed model planning sets the foundation for accurate and actionable cri
    - Highlights the prevalence of certain crimes.
    - Useful for identifying which categories require the most attention.
 
-   ![Stacked Bar Chart](Images\crimesByCategory.png)
+   ![Stacked Bar Chart](Images/crimesByCategory.png)
 
 2. **Scatter Plot**: Crime Rate vs. Population.
    - Insight: Larger populations correlate with higher crime rates.
 
-   ![Scatter Plot](Images\crimeRatevsPopulation.png)
+   ![Scatter Plot](Images/crimeRatevsPopulation.png)
 
 3. **Simulated vs. Actual Predictions**:
    - Compares baseline and population-adjusted predictions, aiding policymakers.
 
-   ![Population Simulation](Images\simulated.png)
+   ![Population Simulation](Images/simulated.png)
 
 ---
 
