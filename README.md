@@ -241,9 +241,9 @@ Some graphs are provided below
    A Stacked Bar Chart showcases the volume of cybercrimes in various cities, with different segments representing specific types of cybercrimes or demographic groups involved. Bars are stacked to show the total, with clear differentiation between subcategories.
 
 
-   <video width="480" height="256" controls>
-   <source src="Images/PowerBi.mp4" type="video/mp4">
-   </video>
+   [![PowerBi](Images\Envision_CRPDashboard_page-0001.jpg)](Images\PowerBi.mp4)
+
+
 
 #### General Observations
 
@@ -394,17 +394,6 @@ Multiple machine learning models are considered to predict the crime rate. Each 
 
 ---
 
-#### **Neural Network (MLP Regressor)**
-
-- **Why**: Captures complex patterns through layers of neurons.
-- **Evaluation**:
-  - MAE
-  - MSE
-  - R²
-  
-- **Insight**:  May Perform poorly, likely due to limited data or insufficient tuning.
-
----
 
 ### **3. Best Model Selection**
 
@@ -449,6 +438,91 @@ This detailed model planning sets the foundation for accurate and actionable cri
 ---
 ---
 ---
+
+# Round 3
+
+#### 1. **Data Loading**
+   - **Libraries Used**: pandas, matplotlib, sklearn
+   - **Objective**: Load and inspect dataset structure. Verify completeness and identify potential preprocessing needs.
+
+#### 2. **Encoding Categorical Variables**
+   - **City and Crime Type** columns were encoded numerically using `LabelEncoder` to make the data suitable for modeling.
+   - **Mappings**: Saved for interpretability.
+
+#### 3. **Splitting the Dataset**
+   - Features (`X`) include year, city, population, and crime type.
+   - Target (`y`) is the crime rate.
+   - **Train-Test Split**: 80:20 ratio.
+
+#### 4. **Model Evaluation**
+   - Multiple models were trained and evaluated on Mean Absolute Error (MAE), Mean Squared Error (MSE), and R² score.
+
+   | Model                    | MAE   | MSE   | R² Score |
+   |--------------------------|-------|-------|-----------|
+   | Support Vector Regressor | 10.30 | 386.25| -0.16     |
+   | K-Nearest Neighbors      | 7.10  | 169.53| 0.49      |
+   | Decision Tree Regressor  | 2.97  | 43.95 | 0.87      |
+   | **Random Forest**        | **2.17** | **18.72** | **0.94**   |
+
+   - The **Random Forest Regressor** was finalized due to its superior performance.
+
+#### 5. **Model Saving**
+   - Saved using Python’s `pickle` for reuse without retraining.
+
+---
+
+### Advanced Insights
+
+#### Synthetic Data Predictions
+- **Generated Synthetic Data**: Simulated data mimicking real-world scenarios for model testing.
+- **Graphical Analysis**:
+  1. **Bar Plot for Cities**:
+     - Compares average predicted crime rates.
+     - Identifies high-risk cities.
+  
+  2. **Temporal Trends**:
+     - **Line Plot**: Yearly changes in predicted crime rates, highlighting spikes or declines.
+
+#### Simulation Studies
+- **Impact of Population Growth**:
+  - Increased population by 10% to simulate its effect on crime rates.
+  - Predictions revealed crime rate increases, emphasizing the need for proactive measures in growing cities.
+
+   ![Scatter Plot](Images\impact.png)
+   
+
+---
+
+### Visualization Summary
+
+1. **Stacked Bar Chart**: Crimes by category.
+   - Highlights the prevalence of certain crimes.
+   - Useful for identifying which categories require the most attention.
+
+   ![Stacked Bar Chart](Images\crimesByCategory.png)
+
+2. **Scatter Plot**: Crime Rate vs. Population.
+   - Insight: Larger populations correlate with higher crime rates.
+
+   ![Scatter Plot](Images\crimeRatevsPopulation.png)
+
+3. **Simulated vs. Actual Predictions**:
+   - Compares baseline and population-adjusted predictions, aiding policymakers.
+
+   ![Population Simulation](Images\simulated.png)
+
+---
+
+## Conclusion
+
+This project provides actionable insights into crime trends, enabling efficient resource allocation and preventive measures. The model’s high accuracy underscores its potential as a tool for law enforcement and urban planning.
+
+
+
+
+
+
+
 
 ## Team Members
 
