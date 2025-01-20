@@ -241,12 +241,7 @@ Some graphs are provided below
    A Stacked Bar Chart showcases the volume of cybercrimes in various cities, with different segments representing specific types of cybercrimes or demographic groups involved. Bars are stacked to show the total, with clear differentiation between subcategories.
 
 
-   [![PowerBi](Images\Envision_CRPDashboard_page-0001.jpg)](Images\PowerBi.mp4)
-
-
-[Watch the demonstration video](https://www.youtube.com/watch?v=tMxr8kpkazU)
-
-
+      ![Demo GIF](Images/Envision_CRPDashboard.gif)
 
 
 #### General Observations
