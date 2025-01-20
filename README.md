@@ -488,7 +488,7 @@ This detailed model planning sets the foundation for accurate and actionable cri
   - Increased population by 10% to simulate its effect on crime rates.
   - Predictions revealed crime rate increases, emphasizing the need for proactive measures in growing cities.
 
-   ![Scatter Plot](Images\impact.png)
+   ![Scatter Plot](Images/impact.png)
    
 
 ---
