@@ -227,13 +227,16 @@ Some graphs are provided below
   1. **Tree Map**: Crime Against Women, Children, SC, and Senior Citizens
 
    A Tree Map is used to visualize the distribution of various types of crimes (e.g., against women, children, Scheduled Castes (SC), and senior citizens) across different categories or regions. Each segment represents a specific crime type, with the size of the block indicating the volume or frequency of incidents.
+   
 2. **World Map**: Population by City
 
    A World Map visualizes population data for cities around the globe. Each city is marked on the map, with bubble sizes or color intensities indicating population density or size.
-3. **Donut Chart**: Year by City
+   
+4. **Donut Chart**: Year by City
 
    A Donut Chart displays the proportion of data for different years within specific cities. Each segment represents a year, with cities as categories in a hierarchical or grouped view.
-4. **Stacked Bar Chart**: Cybercrimes by City
+   
+6. **Stacked Bar Chart**: Cybercrimes by City
 
    A Stacked Bar Chart showcases the volume of cybercrimes in various cities, with different segments representing specific types of cybercrimes or demographic groups involved. Bars are stacked to show the total, with clear differentiation between subcategories.
 
