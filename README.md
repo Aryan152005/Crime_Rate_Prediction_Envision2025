@@ -2,7 +2,7 @@
 
 # Round 1
 
-[balanced_synthetic_crime_data_new.csv](.\Dataset\balanced_synthetic_crime_data_new.csv)
+[balanced_synthetic_crime_data_new.csv](/Dataset/balanced_synthetic_crime_data_new.csv)
 
 ## Problem Statement
 
@@ -129,7 +129,7 @@ Envision is a team-based competition where participants solve real-world challen
 
 # Round 2
 
-[formated_new_dataset.csv](.\Dataset\formated_new_dataset.csv)
+[formated_new_dataset.csv](Dataset/formated_new_dataset.csv)
 
 # Code Workflow
 
@@ -175,7 +175,7 @@ Some graphs are provided below
      - **Y-axis**: City names.
    - **Insight**: Cities with high murder rates can be identified easily.
 
-   ![City vs Murder Cases](.\Images\CityvsMurderCases.png)
+   ![City vs Murder Cases](Images/CityvsMurderCases.png)
 
 2. **City vs Kidnapping Cases**
 
@@ -186,7 +186,7 @@ Some graphs are provided below
      - **Y-axis**: City names.
    - **Insight**: Highlights cities where kidnapping cases are most prevalent.
 
-   ![City vs Kidnapping Cases](Images\CityvsKidnappingCases.png)
+   ![City vs Kidnapping Cases](Images/CityvsKidnappingCases.png)
 
 3. **City vs Crime Against Women**
 
@@ -197,7 +197,7 @@ Some graphs are provided below
      - **Y-axis**: City names.
    - **Insight**: Identifies cities with high rates of gender-based crimes.
 
-   ![City vs Crime Against Women](Images\CityvsCrimeAgainstWomen.png)
+   ![City vs Crime Against Women](Images/CityvsCrimeAgainstWomen.png)
 
 4. **City vs Economic Offenses**
 
@@ -208,7 +208,7 @@ Some graphs are provided below
      - **Y-axis**: City names.
    - **Insight**: Helps pinpoint urban areas with high financial crime activity.
 
-   ![City vs Economic Offenses](Images\CityvsEconomicOffenses.png)
+   ![City vs Economic Offenses](Images/CityvsEconomicOffenses.png)
    
 5. **City vs Cyber Crimes**
    - **Column Used**: `Cyber Crimes`
@@ -218,11 +218,11 @@ Some graphs are provided below
      - **Y-axis**: City names.
    - **Insight**: Shows cities with significant digital crime rates.
 
-   ![City vs Cyber Crimes](Images\CityvsCyberCrimes.png)
+   ![City vs Cyber Crimes](Images/CityvsCyberCrimes.png)
 
 #### PowerBI Visualization
    
-   ![Power](Images\Envision_CRPDashboard_page-0001.jpg)
+   ![Power](Images/Envision_CRPDashboard_page-0001.jpg)
 
   1. **Tree Map**: Crime Against Women, Children, SC, and Senior Citizens
 
@@ -239,7 +239,7 @@ Some graphs are provided below
 
 
    <video width="480" height="256" controls>
-   <source src="Images\PowerBi.mp4" type="video/mp4">
+   <source src="Images/PowerBi.mp4" type="video/mp4">
    </video>
 
 #### General Observations
