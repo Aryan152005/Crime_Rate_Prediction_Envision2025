@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Prediction Result</h1>
+        <p>The predicted crime rate is: <strong>{{ prediction }}</strong></p>
+
+        <h2>Visualizations</h2>
+        <img src="/static/avg_crime_by_city.png" alt="Average Predicted Crime Rate by City">
+        <img src="/static/yearly_trend.png" alt="Yearly Trend of Predicted Crime Rate">
+
+        <a href="/" class="btn">Go Back</a>
+    </div>
+</body>
+
+</html>
