@@ -512,6 +512,11 @@ This detailed model planning sets the foundation for accurate and actionable cri
 
 ---
 
+### Model Deployment
+The model was successfully developed and locally deployed
+
+   ![Demo GIF](Images/deploy.gif)
+   
 ## Conclusion
 
 This project provides actionable insights into crime trends, enabling efficient resource allocation and preventive measures. The model’s high accuracy underscores its potential as a tool for law enforcement and urban planning.
